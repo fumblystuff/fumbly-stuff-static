@@ -1,0 +1,24 @@
+{
+  "name": "fumbly-stuff-static",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "The Astro static site for fumblystuff.com",
+  "author": "John M. Wargo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnwargo/johnwargo-static-11ty"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.3.4",
+    "astro": "^4.0.8",
+    "typescript": "^5.3.3"
+  }
+}
