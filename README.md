@@ -1,8 +1,6 @@
 # Fumbly Stuff Static Site (Astro)
 
-Template Options
+Template: https://pixelarity.com/drift
 
-* https://pixelarity.com/apex
-* https://pixelarity.com/drift
 * https://pixelarity.com/cogent
 * https://pixelarity.com/slate
