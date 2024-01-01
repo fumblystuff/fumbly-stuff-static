@@ -3,6 +3,7 @@ import Analytics from "../components/google-analytics.astro";
 import Footer from "../components/Footer.astro";
 import Scripts from "../components/scripts.astro";
 import Config from "../config.ts";
+const { pageTitle } = Astro.props;
 ---
 
 <!doctype html>
@@ -13,7 +14,7 @@ import Config from "../config.ts";
 -->
 <html>
   <head>
-    <title>{Config.siteTitle}</title>
+    <title>{Config.siteTitle}: {pageTitle}</title>
     <meta charset="utf-8" />
     <meta name="generator" content="{{ eleventyinfo.generatorStr}}" />
     <meta name="author" content="John M. Wargo">
@@ -26,10 +27,7 @@ import Config from "../config.ts";
     <link rel="stylesheet" href="/assets/css/main.css" />
     <Analytics />
   </head>
-
   <slot />
-
   <Footer />
   <Scripts />
-
 </html>

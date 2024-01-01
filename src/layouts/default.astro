@@ -4,22 +4,18 @@ import Header from "../components/Header.astro";
 const { pageTitle } = Astro.props;
 ---
 
-<Base>
-		<body class="is-preload">
-			<Header />
-			<!-- Main -->
-			<section id="main" class="wrapper style1">
-				<header class="major">
-					<h2>{pageTitle}</h2>
-					
-				</header>
-				<div class="container">
-					<!-- Content -->
-					<section id="content">
-						<slot />
-					</section>
-				</div>
-			</section>
-		</body>
-	</html>
+<Base pageTitle={pageTitle}>
+	<body class="is-preload">
+		<Header />
+		<section id="main" class="wrapper style1">
+			<header class="major">
+				<h2>{pageTitle}</h2>
+			</header>
+			<div class="container">				
+				<section id="content">
+					<slot />
+				</section>
+			</div>
+		</section>
+	</body>
 </Base>

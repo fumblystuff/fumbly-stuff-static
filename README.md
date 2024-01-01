@@ -4,7 +4,7 @@
 
 - [x] Google Analytics
 - [ ] Fav icon
-- [ ] 
+- [ ] Image credits nicolas-thomas-3GZi6OpSDcY-unsplash
 - [ ] 
 - [ ] 
 - [ ] 
