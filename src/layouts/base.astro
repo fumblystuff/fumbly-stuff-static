@@ -1,7 +1,7 @@
 ---
 import Footer from "../components/Footer.astro";
 import Scripts from "../components/scripts.astro";
-const siteTitle = "Fumbly Stuff";
+import Config from "../config.ts";
 ---
 
 <!doctype html>
@@ -12,7 +12,7 @@ const siteTitle = "Fumbly Stuff";
 -->
 <html>
   <head>
-    <title>{siteTitle}</title>
+    <title>{Config.siteTitle}</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
