@@ -7,6 +7,15 @@ const { pageTitle } = Astro.props;
 <Base pageTitle={pageTitle}>
 	<body class="landing is-preload">
 		<Header />
+		<section id="banner">
+			<div class="inner">
+				<h2>Fumbly Stuff</h2>
+				<p>Hardware (and sometimes software) solutions for hobbyists.</p>
+				<ul class="actions special">
+					<li><a href="/about" class="button large scrolly">Learn More</a></li>
+				</ul>
+			</div>
+		</section>
 		<slot />
 	</body>
 </Base>
