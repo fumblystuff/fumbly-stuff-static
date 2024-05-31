@@ -3,7 +3,7 @@
 **Tasks**
 
 - [x] Google Analytics
-- [ ] Fav icon
+- [ ] Favicon
 - [ ] Image credits nicolas-thomas-3GZi6OpSDcY-unsplash
 - [ ] 
 - [ ] 

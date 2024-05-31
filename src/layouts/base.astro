@@ -1,8 +1,10 @@
 ---
 import Analytics from "../components/google-analytics.astro";
-import Footer from "../components/Footer.astro";
-import Scripts from "../components/scripts.astro";
 import Config from "../config.ts";
+import Footer from "../components/Footer.astro";
+import Icons from "../components/icons.astro";
+import Scripts from "../components/scripts.astro";
+
 const { pageTitle } = Astro.props;
 ---
 
@@ -16,15 +18,13 @@ const { pageTitle } = Astro.props;
   <head>
     <title>{Config.siteTitle}: {pageTitle}</title>
     <meta charset="utf-8" />
-    <meta name="generator" content="{{ eleventyinfo.generatorStr}}" />
-    <meta name="author" content="John M. Wargo">
+    <meta name="author" content="John M. Wargo" />
     <meta name="description" content="Static web site for Fumbly Stuff, LLC" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="generator" content={Astro.generator} />
+    <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="/assets/css/main.css" />
+    <Icons />
     <Analytics />
   </head>
   <slot />
