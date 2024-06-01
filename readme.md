@@ -1,10 +1,9 @@
 # Fumbly Stuff Static Site (Astro)
 
-https://fumblyastro.netlify.app/
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/6ef65515-d375-4b02-b597-aa0bf2153e09/deploy-status)](https://app.netlify.com/sites/fumblyastro/deploys)
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6ef65515-d375-4b02-b597-aa0bf2153e09/deploy-status)](https://app.netlify.com/sites/fumblyastro/deploys)
 
+Hosted: [Netlify](https://fumblyastro.netlify.app/)
 
 **Tasks**
 
