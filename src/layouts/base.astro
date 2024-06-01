@@ -20,7 +20,7 @@ const { pageTitle } = Astro.props;
     <title>{Config.siteTitle}: {pageTitle}</title>
     <meta charset="utf-8" />
     <meta name="author" content="John M. Wargo" />
-    <meta name="description" content="Static web site for Fumbly Stuff, LLC" />
+    <meta name="description" content={Config.siteDescription} />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="generator" content={Astro.generator} />
     <link rel="manifest" href="/manifest.json">
