@@ -1,6 +1,7 @@
 ---
 import Base from "./base.astro";
 import Header from "../components/header.astro";
+import Config from "../config.ts";
 const { pageTitle } = Astro.props;
 ---
 
@@ -10,7 +11,7 @@ const { pageTitle } = Astro.props;
 		<section id="banner">
 			<div class="inner">
 				<h2>Fumbly Stuff</h2>
-				<p>Hardware (and sometimes software) solutions for hobbyists.</p>
+				<p>{Config.siteDescription}</p>
 				<ul class="actions special">
 					<li><a href="/about" class="button large scrolly">Learn More</a></li>
 				</ul>
