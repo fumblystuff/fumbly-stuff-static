@@ -2,7 +2,7 @@
   "name": "fumbly-stuff-static",
   "type": "module",
   "version": "0.0.1",
-  "description": "The Astro static site for fumblystuff.com",
+  "description": "",
   "author": "John M. Wargo",
   "license": "MIT",
   "repository": {
