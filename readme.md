@@ -9,10 +9,9 @@ Hosted: [Netlify](https://fumblyastro.netlify.app/)
 
 - [x] Google Analytics
 - [x] Favicon
-- [ ] Image credits nicolas-thomas-3GZi6OpSDcY-unsplash
-- [ ] Make Search menu item a search field in the toolbar
-- [ ] Add Downloads area - where?
+- [X] Add Downloads area
 - [ ] Finish Home page
+- [ ] Image credits nicolas-thomas-3GZi6OpSDcY-unsplash
 - [ ] Finish About content
 - [ ] Write Product pages
 - [ ] Create Product Catalog and Store
@@ -35,3 +34,10 @@ Hosted: [Netlify](https://fumblyastro.netlify.app/)
 - [ ] 
 
 Template: https://pixelarity.com/drift
+
+## QR Code
+
+https://www.qrcode-monkey.com/
+
+QR Code URL: https://fumblystuff.com/products/perma-breadboard
+QR Code URL: https://fumblystuff.com/products/perma-breadboard-powered
