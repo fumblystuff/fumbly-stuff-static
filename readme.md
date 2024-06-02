@@ -39,5 +39,7 @@ Template: https://pixelarity.com/drift
 
 https://www.qrcode-monkey.com/
 
-QR Code URL: https://fumblystuff.com/products/perma-breadboard
-QR Code URL: https://fumblystuff.com/products/perma-breadboard-powered
+https://fumblystuff.com/products/perma-breadboard?utm_source=qr_code
+Powered: https://fumblystuff.com/products/perma-breadboard/powered?utm_source=qr_code
+
+testing: https://fumblyastro.netlify.app/products/perma-breadboard?utm_source=qr_code
