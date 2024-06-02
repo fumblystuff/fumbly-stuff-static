@@ -10,7 +10,7 @@ Hosted: [Netlify](https://fumblyastro.netlify.app/)
 - [x] Google Analytics
 - [x] Favicon
 - [X] Add Downloads area
-- [ ] Create Support page
+- [ ] Create Support contact form
 - [ ] Finish Home page
 - [ ] Configure home vs. other page `title`
 - [ ] Image credits nicolas-thomas-3GZi6OpSDcY-unsplash
