@@ -11,8 +11,9 @@ Hosted: [Netlify](https://fumblystuff.netlify.app/)
 - [x] Favicon
 - [X] Add Downloads area
 - [x] Finish About content
+- [x] Configure home vs. other page `title`
+- [ ] Bring page description into meta description
 - [ ] Finish Home page
-- [ ] Configure home vs. other page `title`
 - [ ] Image credits nicolas-thomas-3GZi6OpSDcY-unsplash
 - [ ] Create Support contact form
 - [ ] Write launch news item post

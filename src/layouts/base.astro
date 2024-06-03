@@ -6,6 +6,7 @@ import Scripts from "../components/scripts.astro";
 import Config from "../config.ts";
 
 const { pageTitle } = Astro.props;
+const currentPath = Astro.url.pathname;
 ---
 
 <!doctype html>
@@ -16,7 +17,7 @@ const { pageTitle } = Astro.props;
 -->
 <html>
   <head>
-    <title>{Config.siteTitle}: {pageTitle}</title>
+    <title>{currentPath === '/' ? Config.siteTitle : pageTitle + ': ' + Config.siteTitle }</title>
     <meta charset="utf-8" />
     <meta name="author" content="John M. Wargo" />
     <meta name="description" content={Config.siteDescription} />
