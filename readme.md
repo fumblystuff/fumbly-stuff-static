@@ -5,6 +5,10 @@
 
 Hosted: [Netlify](https://fumblystuff.netlify.app/)
 
+
+https://docs.astro.build/en/guides/markdown-content/
+https://docs.astro.build/en/guides/content-collections/
+
 **Tasks**
 
 - [x] Google Analytics
