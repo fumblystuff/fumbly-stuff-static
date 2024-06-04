@@ -2,10 +2,10 @@
 import Base from "./base.astro";
 import Header from "../components/Header.astro";
 import Config from "../config.ts";
-const { pageTitle } = Astro.props;
+const { title } = Astro.props;
 ---
 
-<Base pageTitle={pageTitle}>
+<Base title={title}>
 	<body class="landing is-preload">
 		<Header />
 		<section id="banner">

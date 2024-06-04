@@ -1,15 +1,15 @@
 ---
 import Base from "./base.astro";
 import Header from "../components/Header.astro";
-const { pageTitle } = Astro.props;
+const { title } = Astro.props;
 ---
 
-<Base pageTitle={pageTitle}>
+<Base title={title}>
 	<body class="is-preload">
 		<Header />
 		<section id="main" class="wrapper style1">
 			<header class="major">
-				<h2>{pageTitle}</h2>
+				<h2>{title}</h2>
 			</header>
 			<div class="container">				
 				<section id="content">
