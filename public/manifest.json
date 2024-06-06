@@ -1,6 +1,6 @@
 {
-  "name": "Fumbly Stuff, LLC",
-  "short_name": "Fumbly Stuff",
+  "name": "Fumbly Stuff",
+  "short_name": "Fumbly",
   "id": "com.fumblystuff",
   "start_url": "/",
   "display": "standalone",
