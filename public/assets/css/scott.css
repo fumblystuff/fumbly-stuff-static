@@ -1,0 +1,19 @@
+h2 {
+  line-height: 1em;
+}
+
+.wrapper {
+  padding: 3em 0 2em 0;
+}
+
+p {
+  margin: 0 0 1em 0;
+}
+
+#main>.container {
+  padding: 2em;
+}
+
+#footer {
+  padding: 1em 0;
+}
